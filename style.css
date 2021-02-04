@@ -49,7 +49,7 @@
     transition: color 0.5s;
 }
 .banner-btn a span{
-    width: 0%;
+    width: 0;
     height: 100%;
     position: absolute;
     top: 0;
@@ -386,10 +386,6 @@ opacity: 1;
         margin-bottom: 500px;
 
     }
-    #Capa_1{
-        margin-top: 300px;
-
-    }
 
 
 }
@@ -438,6 +434,7 @@ opacity: 1;
     width: 100%;
     padding: 70px 0;
     background: #AAAAAA;
+
 
 }
 
