@@ -384,6 +384,10 @@ opacity: 1;
     }
     #acordion{
         margin-bottom: 500px;
+    }
+    #progression{
+
+        height: 100vh;
 
     }
 
@@ -638,6 +642,70 @@ opacity: 1;
 .single-service p{
     color: black;
 }
+
+
+#progression{
+    background-color: lightgray ;
+    height: 100vh;
+
+}
+
+#demo{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Fira Code Retina";
+
+}
+
+#progression h4{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Fira Code Retina";
+
+}
+
+.progress{
+    width: 40%;
+
+}
+.progg{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.progg hr{
+    width: 40%;
+}
+
+.progg1{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.progg1 .progress{
+    width: 30%;
+}
+
+.progg1 hr{
+    width: 30%;
+}
+
+#progression .title-text{
+    padding-top: 80px;
+}
+
+.streck hr{
+    width: 100%;
+}
+
+@media screen and (max-width: 770px){
+    #progression{
+        height: 150vh;
+    }
+}
+
+
 
 
 
