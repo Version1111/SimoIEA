@@ -135,7 +135,7 @@ nav ul li a{
 .title-text p{
     margin: auto;
     font-size: 20px;
-    color: #009600;
+    color: #009688;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -145,7 +145,7 @@ nav ul li a{
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#009600, #fff);
+    background: linear-gradient(#009688, #fff);
     position: absolute;
     top: -20px;
     left: 0;
@@ -224,42 +224,9 @@ nav ul li a{
     transform: translateX(-50%);
     transition: 0.5s;
 }
-.service-desc-2{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: 0.5s;
-    border-radius:  7px;
-    border-color: black;
-    background: linear-gradient(rgba(0,0,0,0.8), #009688);
-}
-.service-desc-3{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: 0.5s;
-    border-radius:  7px;
-    border-color: black;
 
-}
-.service-desc-4{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: 0.5s;
-    border-radius:  7px;
-    border-color: black;
 
-}
+
 
 hr{
     background: #fff;
@@ -272,39 +239,6 @@ hr{
     bottom: 40%;
 opacity: 1;
 }
-.single-service:hover .service-desc-2{
-    bottom: -75%;
-    opacity: 1;
-}
-.single-service:hover .service-desc-3{
-    bottom: -98%;
-    opacity: 1;
-}
-.single-service:hover .service-desc-4{
-    bottom: -35%;
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -318,7 +252,7 @@ opacity: 1;
 }
 
 .testimonial-row{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -327,12 +261,15 @@ opacity: 1;
 
 }
 .testimonial-col{
-    flex-basis: 28%;
+    flex-basis: 30%;
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #009600;
+    box-shadow: 0 10px 20px 3px #009688;
 
+}
+.testimonial-col p{
+    margin: 0;
 }
 
 .testimonial-col p{
@@ -351,14 +288,8 @@ opacity: 1;
     font-size: 40px;
     margin-right: 20px;
     border-radius: 3px;
-    color: #009600;
+    color: #009688;
 }
-
-
-
-
-
-
 
 
 
@@ -408,7 +339,7 @@ opacity: 1;
 
 .footer-left .fa,.footer-right .fa{
     font-size: 20px;
-    color: #009600;
+    color: #009688;
     margin: 10px;
 }
 
@@ -420,15 +351,15 @@ opacity: 1;
     width: 40px;
     font-size: 20px;
     line-height: 40px;
-    border: 1px solid #009600;
+    border: 1px solid #009688;
     margin: 40px 5px 0;
-    color: #009600;
+    color: #009688;
     cursor: pointer;
     transition: .5s;
 }
 
 .social-links .fa:hover{
-    background: #009600;
+    background: #009688;
     color: #fff;
     transform: translateY(-7px);
 }
@@ -451,42 +382,14 @@ opacity: 1;
         flex-basis: 100%;
         font-size: 14px;
     }
-
-    .single-service{
-
-        flex-basis: 60%;
-        font-size: 14px;
-    }
-    #service{
-        height: 120vh;
+    #acordion{
+        margin-bottom: 500px;
 
     }
-    .card-info h2{
-        font-size: 75%;
-        text-align: left;
-    }
-    #service p{
-        font-size: 75%;
-    }
-    .single-service:hover .service-desc-4{
-        left: -52%;
-        top: 10%;
-        opacity: 1;
-    }
-    .single-service:hover .service-desc-3{
-        left: -52%;
-        top: -35%;
+    #Capa_1{
+        margin-top: 300px;
 
-        opacity: 1;
     }
-    .single-service{
-        margin-top: 30px;
-    }
-
-    .service-box{
-        margin-left: 40%;
-    }
-
 
 
 }
@@ -537,7 +440,7 @@ opacity: 1;
 #d-service{
     width: 100%;
     padding: 70px 0;
-    background: lightgrey;
+    background: #AAAAAA;
 
 }
 
@@ -630,6 +533,119 @@ opacity: 1;
     font-size: 100px;
     text-align: center;
 }
+
+.accordion-item, .accordion-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+.accordion-item{
+    box-shadow: 0 2px 20px 0 rgba(30, 139, 195, 1);
+
+
+}
+.accordion-button{
+    width: 100%;
+    height: 60px;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+#acordion h1{
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+}
+#acordion{
+    height: 75vh;
+
+}
+
+#acordion .fa{
+    margin-left: 30px;
+    font-size: 150%;
+
+
+}
+#acordion .title-text{
+    padding-top: 80px;
+}
+
+/* IDE:::
+ PLACERA EN SKOLHATT TILL HÖGER OM ACCORDION ITHEMS, EN HATT SOM RITAR SIG SJÄLV SOM I EN AV YOUTUBEVIDEOSEN: svd images LINK IMAGE */
+
+
+#Capa_1{
+    width: 400px;
+    margin: 10% auto;
+    display: block;
+}
+
+.face, .face2, .face3{
+    fill-opacity: 0;
+    stroke: #009688;
+    stroke-width: 1px;
+    stroke-dashoffset: 0;
+
+
+}
+.face{
+    animation: face 8s ease-in-out;
+    stroke-dasharray: 200;
+}
+
+.face2{
+    animation: face2 10s ease-in-out;
+    stroke-dasharray: 100;
+}
+.face3{
+    animation: face2 13s ease-in-out;
+    stroke-dasharray: 100;
+}
+
+@keyframes face {
+    0%{
+        stroke-dashoffset: 200;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes face2 {
+    0%{
+        stroke-dashoffset: 100;
+    }
+    50%{
+        stroke-dashoffset: 100;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes face3 {
+    0%{
+        stroke-dashoffset: 100;
+    }
+    0%{
+        stroke-dashoffset: 100;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.single-service h3{
+    color: black;
+}
+.single-service p{
+    color: black;
+}
+
+
 
 
 
